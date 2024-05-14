@@ -1,0 +1,447 @@
+/* GroupName : TechCraft
+   DatabaseName:autobytecare
+   ProjectName:AutoByteCare
+Members :  Shree Dhar Acharya : 8899288
+           Rishab Abbhi : 8874858
+           Rohit Rana : 8874589 */
+/* Reset some default browser styles */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f7f7f7;
+  color: #333333;
+}
+
+/* Navigation bar styles */
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333333;
+}
+
+.navbar-brand img {
+  width: 150px;
+  height: auto;
+  display: block;
+  margin-right: 15px;
+}
+
+.navbar-nav .nav-link {
+  color: #333333;
+  font-weight: 600;
+}
+.fonticon img {
+  width: 30px;
+  height: 30px;
+  display: block;
+}
+
+/* Hero section styles */
+.hero {
+  background: url("images/hero-bg.jpg") center/cover no-repeat;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Global Styles */
+body.login-body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #f8f9fa;
+}
+
+/* Login Card Styles */
+.card.login-card {
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styles */
+.form-label {
+  font-weight: 700;
+}
+
+.form-control {
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Button Styles */
+.btn-primary {
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.login-button {
+  background-color: #333333;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+/* Centering the Login Card */
+.login-row {
+  height: 100vh;
+}
+
+/* Features section styles */
+.features {
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.feature-card {
+  border: 1px solid #e0e0e0;
+  padding: 2rem;
+  background-color: #ffffff;
+  /* padding: 30px; */
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.feature-card i {
+  font-size: 3rem;
+  color: #333333;
+}
+
+.feature-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.feature-card p {
+  font-size: 1rem;
+  color: #777777;
+  margin-top: 1rem;
+}
+
+/* Footer section styles */
+.footer {
+  background-color: #ffffff;
+  text-align: center;
+  border-top: 1px solid #e0e0e0;
+  padding: 1.5rem 0;
+}
+
+/* Button styles */
+.btn-primary {
+  background-color: #333333;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #222222;
+}
+
+/* .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+} */
+
+.registration-form {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 400px;
+}
+
+.registration-form h2 {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  background-color: #ff6b6b;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #e25858;
+}
+
+/* Custom CSS for Service Cards */
+.services {
+  background-color: #f7f7f7;
+  padding: 80px 0;
+}
+
+.services h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.service-card {
+  border: 1px solid #e0e0e0;
+  padding: 2rem;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.service-icon {
+  font-size: 3rem;
+  color: #333333;
+  display: block;
+  margin-bottom: 1rem;
+}
+
+.service-card h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+.service-card p {
+  font-size: 1rem;
+  color: #777777;
+  margin-top: 1rem;
+}
+
+/* About Us section styles */
+.about-us {
+  padding: 4rem 0;
+  background-color: #ffffff;
+}
+
+.about-us img {
+  max-width: 100%;
+}
+
+.about-us h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.about-us h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: 1.5rem;
+}
+
+.about-us p {
+  font-size: 1rem;
+  color: #777777;
+  margin-top: 1rem;
+}
+
+/* Contact Us Section Styles */
+.contact-us {
+  background-color: #f7f7f7;
+  padding: 4rem 0;
+}
+
+.contact-info {
+  margin-top: 2rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1.5rem;
+}
+
+.contact-icon {
+  font-size: 2rem;
+  color: #333333;
+  margin-right: 1rem;
+}
+
+.contact-form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+.contact-form h3 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-weight: bold;
+}
+
+.form-control {
+  margin-bottom: 1.5rem;
+}
+
+textarea.form-control {
+  resize: vertical;
+}
+
+.btn-primary {
+  background-color: #333333;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #222222;
+}
+/* Material Icons */
+.material-icons-outlined:before {
+  font-family: "Material Icons Outlined";
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "liga";
+  -webkit-font-feature-settings: "liga";
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Report Card Styles */
+.report-card {
+  padding: 30px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fff;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.report-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.report-icon {
+  font-size: 48px;
+  color: #007bff;
+  margin-bottom: 20px;
+}
+
+.profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+.footer {
+  background-color: #f8f9fa;
+  text-align: center;
+  padding: 10px 0;
+}
+.footer p {
+  margin: 5px 0;
+}
+
+/* Style the footer links */
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+/* Change link color on hover */
+.footer a:hover {
+  color: #f8f9fa;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+  .report-card {
+    margin-bottom: 20px;
+  }
+}
